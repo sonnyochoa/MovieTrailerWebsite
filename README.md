@@ -9,5 +9,5 @@ I used The Movie DB API to get top rated movies, parsed the JSON, grabed the rel
 
 - Clone the repo: `git clone https://github.com/sonnyochoa/MovieTrailerWebsite.git`
 - Register for an API Key with [TMDB](https://www.themoviedb.org/)
-- Replace Config.API_KEY with the API Key you received from TMDB.
-- If you do not for an API Key, you will get a default list of movies.
+- Replace config.API_KEY in the entertainment_center.py file with the API Key you received from TMDB.
+- Once everything is configured, to run the web application you need to run entertainment_center.py: `python entertainment_center.py`
